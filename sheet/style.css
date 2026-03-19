@@ -107,7 +107,7 @@ ul.icon::after {
     width: 1px;
     height: 54px;
     background-color: rgba(250,250,250,0.3);
-    right: 187px;
+    right:222px;
     position: absolute;
 }
 
@@ -137,6 +137,7 @@ ul.icon {
     gap: 34px;
     align-items: center;
     position: relative;
+    padding-right:39px;
 }
 ul.icn {
     display: flex;
@@ -152,17 +153,16 @@ i.fa-solid.fa-phone {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 82px;
 }
 section.banner-section1 {
     background-image: url("image/banner-image.jpg");
     position: relative;
 }
-
 header {
     position: absolute;
     z-index: 1;
-    left: 111px;
+    left: 115px;
     top: 62px;
 }
 h3.finance-services {
