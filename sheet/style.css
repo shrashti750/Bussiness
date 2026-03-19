@@ -17,12 +17,46 @@ li{
     list-style-type:none;
 }
 
+li.phone::after {
+    position: absolute;
+    content: "";
+    background: rgba(250,250,250,0.3);
+    height: 50px;
+    width: 2px;
+    left: -18px;
+    top: -14px;
+}
+li.phone{
+    position:relative;
+}
+li.phonr-clk{
+    position:relative;
+}
+li.phone-clk::after {
+    position: absolute;
+    content: "";
+    background: rgba(250,250,250,0.3);
+    height: 50px;
+    width: 2px;
+    left: 351px;
+    top: -6px;
+}
+li.phone-clk::before {
+    position: absolute;
+    content: "";
+    background: rgba(250,250,250,0.3);
+    height: 50px;
+    width: 2px;
+    left: 512px;
+    top: 4px;
+}
 ul {
     display: flex;
 }
 .sub-header {
     display: flex;
     justify-content: space-between;
+    align-items:center;
     height: 43px;
 }
 
@@ -37,6 +71,11 @@ a.main-icn {
 ul.icon {
     display: flex;
     gap: 20px;
+    align-items: center;
+}
+ul.icon {
+    display: flex;
+    gap: 34px;
     align-items: center;
 }
 ul.icn {
